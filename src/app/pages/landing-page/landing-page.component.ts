@@ -1,5 +1,6 @@
 import { CommonModule, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { ProjectService } from '../../service/project/project.service';
 
 @Component({
   selector: 'app-landing-page',
@@ -9,5 +10,9 @@ import { Component } from '@angular/core';
   styleUrl: './landing-page.component.scss'
 })
 export class LandingPageComponent {
+
+  constructor(private projectService: ProjectService) {
+    
+  }
 
 }
