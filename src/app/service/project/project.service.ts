@@ -22,4 +22,8 @@ export class ProjectService {
       projectGithub: "https://github.com/goofySunny/Task", projectPicture : "assets/Task.png"}
   ]
   constructor() { }
+
+  getListProjects() {
+    return this.listProjects;
+  }
 }
