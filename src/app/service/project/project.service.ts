@@ -19,7 +19,7 @@ export class ProjectService {
     {projectName : "TodoManagerJSP", projectDescription: "This project is a traditional web application that relies on classic JSP and form submission methods, without employing modern front-end or back-end frameworks. It uses an H2 in-memory database for data storage and features traditional form login with preset authenticated users.",
       projectGithub: "https://github.com/goofySunny/SecondWebApp", projectPicture: "./assets/secondWebApp.png"},
     {projectName : "SayanRayanTask", projectDescription : "This was a project that I was tasked with (as a test I suppose) so I could prove my skills for front-end development I had one day to do this project and unfortunately I failed but here it is for anyone interested to take a look I guess",
-      projectGithub: "https://github.com/goofySunny/Task", projectPicture : "./assets/Task.png"}
+      projectGithub: "https://github.com/goofySunny/Task", projectPicture : "./assets/Task-pic.png"}
   ]
   constructor() { }
 
